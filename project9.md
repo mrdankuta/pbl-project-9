@@ -51,4 +51,4 @@
     ![Jenkins Test Build](images/007-jenkins-test-build.png)
 - Configure automatic triggering from Github Webhook
     ![Jenkins Auto Trigger](images/008-jenkins-github-archive.gif)
-- Test automation by editing file(s) in repository and push the changes.
+- Test automation by editing file(s) in repository and push the changes
