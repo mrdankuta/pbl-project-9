@@ -4,7 +4,7 @@
 
 ---
 
-## Install & Configure Jenkins Server
+## Install Jenkins Server
 
 - In EC2 spin up an Ubuntu server named `jenkins`
 - Install JDK:
@@ -25,6 +25,11 @@
     ```
 - In EC2 open TCP port `8080`
     ![Open Port 8080](images/001-open-port-8080.png)
+
+
+## Configure Jenkins Server
+
+
 - Visit `http://<jenkins-server-public-ip-address>:8080` in browser to begin Jenkins configuration
     ![jenkins Login](images/002-jenkins-login.png)
 - Get Initial Admin Password from `/var/lib/jenkins/secrets/initialAdminPassword`:
