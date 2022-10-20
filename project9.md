@@ -66,7 +66,7 @@
 - Test automation by editing file(s) in repository and push the changes. If you get a `Permission Denied` error, log into NFS server and change the permissions and ownership on `/mnt/apps` :
     ```
     sudo chown -R nobody:nobody /mnt/apps
-    sudo chmod 777 /mnt/apps
+    sudo chmod -R 777 /mnt/apps
     ```
     ![Permission Problem](images/014-jenkins-permissions-problem.png)
     ![Project Success](images/015-jenkins-nfs-ssh-success.png)
